@@ -10,11 +10,11 @@ def main():
     # create graph
     city = create_city()
 
-    # create costs citys
+    # create costs cities
     costs = create_costs()
 
-    # create list not check sity
-    list_cities = ['biysk', 'barnaul', 'novosibirck', 'belokurikha',
+    # create list not check city
+    list_cities = ['biysk', 'barnaul', 'novosibirsk', 'belokurikha',
                    'tomsk', 'krasnoyarsk', 'omsk']
 
     used_city = list_cities.pop(0)  # Сity that we processing
@@ -44,16 +44,16 @@ def create_city():
     city = {}
     city['biysk'] = {}
     city['biysk']['barnaul'] = 9
-    city['biysk']['novosibirck'] = 11
+    city['biysk']['novosibirsk'] = 11
     city['biysk']['belokurikha'] = 8
     city['barnaul'] = {}
     city['barnaul']['tomsk'] = 4
     city['belokurikha'] = {}
-    city['belokurikha']['novosibirck'] = 2
-    city['novosibirck'] = {}
-    city['novosibirck']['barnaul'] = 2
-    city['novosibirck']['tomsk'] = 5
-    city['novosibirck']['omsk'] = 20
+    city['belokurikha']['novosibirsk'] = 2
+    city['novosibirsk'] = {}
+    city['novosibirsk']['barnaul'] = 2
+    city['novosibirsk']['tomsk'] = 5
+    city['novosibirsk']['omsk'] = 20
     city['tomsk'] = {}
     city['tomsk']['krasnoyarsk'] = 6
     city['krasnoyarsk'] = {}
@@ -68,7 +68,7 @@ def create_costs():
     costs = {}
     costs['biysk'] = 0
     costs['barnaul'] = infinity
-    costs['novosibirck'] = infinity
+    costs['novosibirsk'] = infinity
     costs['belokurikha'] = infinity
     costs['tomsk'] = infinity
     costs['krasnoyarsk'] = infinity
