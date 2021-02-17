@@ -17,7 +17,6 @@ def main():
 
     box1 = sort(box1)
     box2 = sort(box2)
-    print(box1, box2)
 
     if all(box1 == box2):
         print('Boxes are equal')
