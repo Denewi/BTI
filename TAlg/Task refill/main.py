@@ -7,8 +7,8 @@ The graph from 1 task is represented in the file "1 task.png"
 """
 
 
-LINK_INPUT = 'INPUT/INPUT10.TXT'
-LINK_OUTPUT = 'OUTPUT/OUTPUT10.TXT'
+LINK_INPUT = 'INPUT/INPUT01.TXT'
+LINK_OUTPUT = 'OUTPUT/OUTPUT01.TXT'
 
 
 def main():
