@@ -9,14 +9,14 @@ def main():
 
     record_meaning(graph, list_city, 1, 0)
     print(MEANING)
-    with open('OUTPUT05.TXT', 'w') as output_file:
+    with open('OUTPUT01.TXT', 'w') as output_file:
         output_file.write(str(min(MEANING)))
 
 
 def create_graph_and_list_city():
     graph = {}
     list_city = []
-    with open('INPUT05.TXT', 'r') as input_file:
+    with open('INPUT01.TXT', 'r') as input_file:
         k = int(input_file.readline())
 
         # Создаем скелет графа
